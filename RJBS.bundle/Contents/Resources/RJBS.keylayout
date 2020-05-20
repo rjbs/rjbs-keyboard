@@ -1,0 +1,1983 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-05-14 at 11:33 (EDT)-->
+<keyboard group="126" id="-5622" name="RJBS" maxout="3">
+    <layouts>
+        <layout first="0" last="17" mapSet="984" modifiers="f4"/>
+        <layout first="18" last="18" mapSet="16c" modifiers="f4"/>
+        <layout first="21" last="23" mapSet="16c" modifiers="f4"/>
+        <layout first="30" last="30" mapSet="16c" modifiers="f4"/>
+        <layout first="194" last="194" mapSet="16c" modifiers="f4"/>
+        <layout first="197" last="197" mapSet="16c" modifiers="f4"/>
+        <layout first="200" last="201" mapSet="16c" modifiers="f4"/>
+        <layout first="206" last="207" mapSet="16c" modifiers="f4"/>
+    </layouts>
+    <modifierMap id="f4" defaultIndex="0">
+        <keyMapSelect mapIndex="0">
+            <modifier keys="command?"/>
+            <modifier keys="anyShift? caps? command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift caps?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys="anyShift caps? anyOption command?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="caps anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="6">
+            <modifier keys="caps? anyOption command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="7">
+            <modifier keys="anyShift caps? option? command? control"/>
+            <modifier keys="shift? caps? anyOption command? control"/>
+            <modifier keys="caps? anyOption? command? control"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="16c">
+        <keyMap index="0" baseMapSet="984" baseIndex="0">
+            <key code="24" action="84"/>
+            <key code="30" output="["/>
+            <key code="33" action="78"/>
+            <key code="39" output=":"/>
+            <key code="42" output="]"/>
+            <key code="93" output="&#x00A5;"/>
+            <key code="94" output="_"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+        <keyMap index="1" baseMapSet="984" baseIndex="1">
+            <key code="19" action="89"/>
+            <key code="22" action="100"/>
+            <key code="24" output="~"/>
+            <key code="25" output=")"/>
+            <key code="26" action="90"/>
+            <key code="27" output="="/>
+            <key code="28" output="("/>
+            <key code="29" output="0"/>
+            <key code="30" output="{"/>
+            <key code="33" output="`"/>
+            <key code="39" action="87"/>
+            <key code="41" output="+"/>
+            <key code="42" output="}"/>
+            <key code="93" output="|"/>
+            <key code="94" output="_"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+        <keyMap index="2" baseMapSet="984" baseIndex="2">
+            <key code="24" action="84"/>
+            <key code="30" output="["/>
+            <key code="33" action="78"/>
+            <key code="39" output=":"/>
+            <key code="42" output="]"/>
+            <key code="93" output="&#x00A5;"/>
+            <key code="94" output="_"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+        <keyMap index="3" baseMapSet="984" baseIndex="3">
+            <key code="93" output="\"/>
+            <key code="94" action="1"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+        <keyMap index="4" baseMapSet="984" baseIndex="4">
+            <key code="93" output="\"/>
+            <key code="94" output="&#x0300;"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+        <keyMap index="5" baseMapSet="984" baseIndex="5">
+            <key code="93" output="\"/>
+            <key code="94" output="`"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+        <keyMap index="6" baseMapSet="984" baseIndex="6">
+            <key code="93" output="\"/>
+            <key code="94" output="_"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+        <keyMap index="7" baseMapSet="984" baseIndex="7">
+            <key code="93" output="|"/>
+            <key code="94" output="_"/>
+            <key code="95" output=","/>
+            <key code="102" action="25"/>
+            <key code="104" action="25"/>
+        </keyMap>
+    </keyMapSet>
+    <keyMapSet id="984">
+        <keyMap index="0">
+            <key code="0" action="27"/>
+            <key code="1" action="63"/>
+            <key code="2" action="33"/>
+            <key code="3" action="37"/>
+            <key code="4" action="41"/>
+            <key code="5" action="39"/>
+            <key code="6" action="77"/>
+            <key code="7" action="73"/>
+            <key code="8" action="31"/>
+            <key code="9" action="69"/>
+            <key code="10" output="&#x00A7;"/>
+            <key code="11" action="29"/>
+            <key code="12" action="59"/>
+            <key code="13" action="71"/>
+            <key code="14" action="35"/>
+            <key code="15" action="61"/>
+            <key code="16" action="101"/>
+            <key code="17" action="65"/>
+            <key code="18" action="1 1"/>
+            <key code="19" action="79"/>
+            <key code="20" action="81"/>
+            <key code="21" action="4 1"/>
+            <key code="22" action="85"/>
+            <key code="23" action="83"/>
+            <key code="24" output="="/>
+            <key code="25" action="9 1"/>
+            <key code="26" action="86"/>
+            <key code="27" output="-"/>
+            <key code="28" action="88"/>
+            <key code="29" action="0 1"/>
+            <key code="30" output="]"/>
+            <key code="31" action="55"/>
+            <key code="32" action="67"/>
+            <key code="33" output="["/>
+            <key code="34" action="43"/>
+            <key code="35" action="57"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="49"/>
+            <key code="38" action="45"/>
+            <key code="39" action="90"/>
+            <key code="40" action="47"/>
+            <key code="41" action=";"/>
+            <key code="42" output="\"/>
+            <key code="43" output=","/>
+            <key code="44" action="/"/>
+            <key code="45" action="53"/>
+            <key code="46" action="51"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="25"/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" action="87"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="1">
+            <key code="0" action="26"/>
+            <key code="1" action="62"/>
+            <key code="2" action="32"/>
+            <key code="3" action="36"/>
+            <key code="4" action="40"/>
+            <key code="5" action="38"/>
+            <key code="6" action="76"/>
+            <key code="7" action="72"/>
+            <key code="8" action="30"/>
+            <key code="9" action="68"/>
+            <key code="10" output="&#x00B1;"/>
+            <key code="11" action="28"/>
+            <key code="12" action="58"/>
+            <key code="13" action="70"/>
+            <key code="14" action="34"/>
+            <key code="15" action="60"/>
+            <key code="16" action="74"/>
+            <key code="17" action="64"/>
+            <key code="18" output="!"/>
+            <key code="19" action="78"/>
+            <key code="20" action="80"/>
+            <key code="21" output="$"/>
+            <key code="22" action="84"/>
+            <key code="23" action="82"/>
+            <key code="24" output="+"/>
+            <key code="25" action="("/>
+            <key code="26" action="100"/>
+            <key code="27" output="_"/>
+            <key code="28" action="87"/>
+            <key code="29" action=")"/>
+            <key code="30" output="}"/>
+            <key code="31" action="54"/>
+            <key code="32" action="66"/>
+            <key code="33" output="{"/>
+            <key code="34" action="42"/>
+            <key code="35" action="56"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="48"/>
+            <key code="38" action="44"/>
+            <key code="39" action="89"/>
+            <key code="40" action="46"/>
+            <key code="41" output=":"/>
+            <key code="42" action="|"/>
+            <key code="43" output="&#x003C;"/>
+            <key code="44" output="?"/>
+            <key code="45" action="52"/>
+            <key code="46" action="50"/>
+            <key code="47" output="&#x003E;"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="25"/>
+            <key code="50" output="~"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="2">
+            <key code="0" action="26"/>
+            <key code="1" action="62"/>
+            <key code="2" action="32"/>
+            <key code="3" action="36"/>
+            <key code="4" action="40"/>
+            <key code="5" action="38"/>
+            <key code="6" action="76"/>
+            <key code="7" action="72"/>
+            <key code="8" action="30"/>
+            <key code="9" action="68"/>
+            <key code="10" output="&#x00A7;"/>
+            <key code="11" action="28"/>
+            <key code="12" action="58"/>
+            <key code="13" action="70"/>
+            <key code="14" action="34"/>
+            <key code="15" action="60"/>
+            <key code="16" action="74"/>
+            <key code="17" action="64"/>
+            <key code="18" output="1"/>
+            <key code="19" action="79"/>
+            <key code="20" action="81"/>
+            <key code="21" output="4"/>
+            <key code="22" action="85"/>
+            <key code="23" action="83"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" action="86"/>
+            <key code="27" output="-"/>
+            <key code="28" action="88"/>
+            <key code="29" output="0"/>
+            <key code="30" output="]"/>
+            <key code="31" action="54"/>
+            <key code="32" action="66"/>
+            <key code="33" output="["/>
+            <key code="34" action="42"/>
+            <key code="35" action="56"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="48"/>
+            <key code="38" action="44"/>
+            <key code="39" action="90"/>
+            <key code="40" action="46"/>
+            <key code="41" output=";"/>
+            <key code="42" output="\"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" action="52"/>
+            <key code="46" action="50"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="25"/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="3">
+            <key code="0" action="7"/>
+            <key code="1" output="&#x00DF;"/>
+            <key code="2" output="&#x00F0;"/>
+            <key code="3" output="&#x0192;"/>
+            <key code="4" action="20"/>
+            <key code="5" action="&#x00A9;"/>
+            <key code="6" action="18"/>
+            <key code="7" action="15"/>
+            <key code="8" action="5"/>
+            <key code="9" action="9"/>
+            <key code="10" output="&#x00A7;"/>
+            <key code="11" action="6"/>
+            <key code="12" output="&#x0153;"/>
+            <key code="13" action="10"/>
+            <key code="14" action="0"/>
+            <key code="15" output="&#x00AE;"/>
+            <key code="16" output="&#x00A5;"/>
+            <key code="17" output="&#x00FE;"/>
+            <key code="18" output="&#x00A1;"/>
+            <key code="19" output="&#x2122;"/>
+            <key code="20" output="&#x00A3;"/>
+            <key code="21" output="&#x00A2;"/>
+            <key code="22" action="2"/>
+            <key code="23" output="&#x00A7;"/>
+            <key code="24" output="&#x2260;"/>
+            <key code="25" output="&#x00AA;"/>
+            <key code="26" output="&#x00B6;"/>
+            <key code="27" output="&#x2013;"/>
+            <key code="28" output="&#x2022;"/>
+            <key code="29" output="&#x00B0;"/>
+            <key code="30" action="98"/>
+            <key code="31" action="94"/>
+            <key code="32" action="3"/>
+            <key code="33" action="99"/>
+            <key code="34" action="21"/>
+            <key code="35" action="13"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="14"/>
+            <key code="38" action="11"/>
+            <key code="39" action="92"/>
+            <key code="40" action="12"/>
+            <key code="41" output="&#x2026;"/>
+            <key code="42" output="&#x00AB;"/>
+            <key code="43" output="&#x2264;"/>
+            <key code="44" output="&#x00F7;"/>
+            <key code="45" action="4"/>
+            <key code="46" action="8"/>
+            <key code="47" output="&#x2265;"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output="&#x00A0;"/>
+            <key code="50" action="1"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="4">
+            <key code="0" output="&#x0304;"/>
+            <key code="1" action="24"/>
+            <key code="2" output="&#x00D0;"/>
+            <key code="3" action="22"/>
+            <key code="4" output="&#x0331;"/>
+            <key code="5" action="19"/>
+            <key code="6" output="&#x0309;"/>
+            <key code="7" output="&#x0323;"/>
+            <key code="8" output="&#x0327;"/>
+            <key code="9" output="&#x030C;"/>
+            <key code="10" output="&#x00B1;"/>
+            <key code="11" output="&#x0306;"/>
+            <key code="12" output="&#x0152;"/>
+            <key code="13" output="&#x0307;"/>
+            <key code="14" output="&#x0301;"/>
+            <key code="15" output="&#x2030;"/>
+            <key code="16" action="23"/>
+            <key code="17" output="&#x00DE;"/>
+            <key code="18" output="&#x2588;"/>
+            <key code="19" output="&#x20AC;"/>
+            <key code="20" output="&#x2039;"/>
+            <key code="21" output="&#x203A;"/>
+            <key code="22" output="&#x0302;"/>
+            <key code="23" output="&#x2020;"/>
+            <key code="24" output="&#x00B1;"/>
+            <key code="25" action="&#x00B7;"/>
+            <key code="26" output="&#x2021;"/>
+            <key code="27" output="&#x2014;"/>
+            <key code="28" output="&#x2605;"/>
+            <key code="29" output="&#x201A;"/>
+            <key code="30" action="97"/>
+            <key code="31" action="93"/>
+            <key code="32" output="&#x0308;"/>
+            <key code="33" output="&#x201D;"/>
+            <key code="34" output="&#x031B;"/>
+            <key code="35" output="&#x0326;"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="&#x0335;"/>
+            <key code="38" output="&#x030B;"/>
+            <key code="39" action="91"/>
+            <key code="40" output="&#x030A;"/>
+            <key code="41" action="16"/>
+            <key code="42" output="&#x00BB;"/>
+            <key code="43" output="&#x201E;"/>
+            <key code="44" output="&#x00BF;"/>
+            <key code="45" output="&#x0303;"/>
+            <key code="46" output="&#x0328;"/>
+            <key code="47" action="17"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output="&#x00A0;"/>
+            <key code="50" output="&#x0300;"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="5">
+            <key code="0" action="7"/>
+            <key code="1" output="SS"/>
+            <key code="2" output="&#x00D0;"/>
+            <key code="3" output="&#x0192;"/>
+            <key code="4" action="20"/>
+            <key code="5" output="&#x00A9;"/>
+            <key code="6" action="18"/>
+            <key code="7" action="15"/>
+            <key code="8" action="5"/>
+            <key code="9" action="9"/>
+            <key code="10" output="&#x00A7;"/>
+            <key code="11" action="6"/>
+            <key code="12" output="&#x0152;"/>
+            <key code="13" action="10"/>
+            <key code="14" action="0"/>
+            <key code="15" output="&#x00AE;"/>
+            <key code="16" output="&#x00A5;"/>
+            <key code="17" output="&#x00DE;"/>
+            <key code="18" output="&#x00A1;"/>
+            <key code="19" output="&#x2122;"/>
+            <key code="20" output="&#x00A3;"/>
+            <key code="21" output="&#x00A2;"/>
+            <key code="22" action="2"/>
+            <key code="23" output="&#x00A7;"/>
+            <key code="24" output="&#x2260;"/>
+            <key code="25" output="&#x00AA;"/>
+            <key code="26" output="&#x00B6;"/>
+            <key code="27" output="&#x2013;"/>
+            <key code="28" output="&#x2022;"/>
+            <key code="29" output="&#x00BA;"/>
+            <key code="30" action="98"/>
+            <key code="31" action="93"/>
+            <key code="32" action="3"/>
+            <key code="33" action="99"/>
+            <key code="34" action="21"/>
+            <key code="35" action="13"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="14"/>
+            <key code="38" action="11"/>
+            <key code="39" action="91"/>
+            <key code="40" action="12"/>
+            <key code="41" output="&#x2026;"/>
+            <key code="42" output="&#x00AB;"/>
+            <key code="43" output="&#x2264;"/>
+            <key code="44" output="&#x00F7;"/>
+            <key code="45" action="4"/>
+            <key code="46" action="8"/>
+            <key code="47" output="&#x2265;"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output="&#x00A0;"/>
+            <key code="50" action="1"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="6">
+            <key code="0" output="&#x00AF;"/>
+            <key code="1" output="&#x00DF;"/>
+            <key code="2" output="&#x00F0;"/>
+            <key code="3" output="&#x0192;"/>
+            <key code="4" output="&#x02CD;"/>
+            <key code="5" output="&#x00A9;"/>
+            <key code="6" action="97"/>
+            <key code="7" output="."/>
+            <key code="8" output="&#x00B8;"/>
+            <key code="9" output="&#x02C7;"/>
+            <key code="10" output="&#x00A7;"/>
+            <key code="11" output="&#x02D8;"/>
+            <key code="12" output="&#x0153;"/>
+            <key code="13" output="&#x02D9;"/>
+            <key code="14" output="&#x00B4;"/>
+            <key code="15" output="&#x00AE;"/>
+            <key code="16" output="&#x00A5;"/>
+            <key code="17" output="&#x00FE;"/>
+            <key code="18" output="&#x00A1;"/>
+            <key code="19" output="&#x2122;"/>
+            <key code="20" output="&#x00A3;"/>
+            <key code="21" output="&#x00A2;"/>
+            <key code="22" output="&#x02C6;"/>
+            <key code="23" output="&#x00A7;"/>
+            <key code="24" output="&#x2260;"/>
+            <key code="25" output="&#x00AA;"/>
+            <key code="26" output="&#x00B6;"/>
+            <key code="27" output="&#x2013;"/>
+            <key code="28" output="&#x2022;"/>
+            <key code="29" output="&#x00BA;"/>
+            <key code="30" action="98"/>
+            <key code="31" action="94"/>
+            <key code="32" output="&#x00A8;"/>
+            <key code="33" action="99"/>
+            <key code="34" action="97"/>
+            <key code="35" output=","/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="-"/>
+            <key code="38" output="&#x02DD;"/>
+            <key code="39" action="92"/>
+            <key code="40" output="&#x02DA;"/>
+            <key code="41" output="&#x2026;"/>
+            <key code="42" output="&#x00AB;"/>
+            <key code="43" output="&#x2264;"/>
+            <key code="44" output="&#x00F7;"/>
+            <key code="45" output="&#x02DC;"/>
+            <key code="46" output="&#x02DB;"/>
+            <key code="47" output="&#x2265;"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output="&#x00A0;"/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="7">
+            <key code="0" output="&#x0001;"/>
+            <key code="1" output="&#x0013;"/>
+            <key code="2" output="&#x0004;"/>
+            <key code="3" output="&#x0006;"/>
+            <key code="4" output="&#x0008;"/>
+            <key code="5" output="&#x0007;"/>
+            <key code="6" output="&#x001A;"/>
+            <key code="7" output="&#x0018;"/>
+            <key code="8" output="&#x0003;"/>
+            <key code="9" output="&#x0016;"/>
+            <key code="10" output="0"/>
+            <key code="11" output="&#x0002;"/>
+            <key code="12" output="&#x0011;"/>
+            <key code="13" output="&#x0017;"/>
+            <key code="14" output="&#x0005;"/>
+            <key code="15" output="&#x0012;"/>
+            <key code="16" output="&#x0019;"/>
+            <key code="17" output="&#x0014;"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="&#x001F;"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="&#x001D;"/>
+            <key code="31" output="&#x000F;"/>
+            <key code="32" output="&#x0015;"/>
+            <key code="33" output="&#x001B;"/>
+            <key code="34" output="&#x0009;"/>
+            <key code="35" output="&#x0010;"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="&#x000C;"/>
+            <key code="38" output="&#x000A;"/>
+            <key code="39" output="&#x0027;"/>
+            <key code="40" output="&#x000B;"/>
+            <key code="41" output=";"/>
+            <key code="42" output="&#x001C;"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" output="&#x000E;"/>
+            <key code="46" output="&#x000D;"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="25"/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <action id="(">
+            <when state="none" output="("/>
+            <when state="Smiley Mode" output="&#x1F641;"/>
+        </action>
+        <action id=")">
+            <when state="none" output=")"/>
+            <when state="Smiley Mode" output="&#x1F642;"/>
+        </action>
+        <action id="/">
+            <when state="none" output="/"/>
+            <when state="Smiley Mode" output="&#x1F615;"/>
+        </action>
+        <action id="0">
+            <when state="none" next="Acute Mode"/>
+        </action>
+        <action id="0 1">
+            <when state="none" output="0"/>
+        </action>
+        <action id="1">
+            <when state="none" next="Grave Mode"/>
+        </action>
+        <action id="1 1">
+            <when state="none" output="1"/>
+            <when state="Smiley Mode" output="&#x1F464;"/>
+        </action>
+        <action id="10">
+            <when state="none" next="Dot-Above Mode"/>
+        </action>
+        <action id="100">
+            <when state="none" output="&#x0026;"/>
+        </action>
+        <action id="101">
+            <when state="none" output="y"/>
+            <when state="Acute Mode" output="&#x00FD;"/>
+            <when state="Circumflex Mode" output="&#x0177;"/>
+            <when state="Diaeresis Mode" output="&#x00FF;"/>
+            <when state="Dot-Above Mode" output="&#x1E8F;"/>
+            <when state="Dot-Below Mode" output="&#x1EF5;"/>
+            <when state="Flag-1 Mode" output="&#x1F1FE;"/>
+            <when state="Grave Mode" output="&#x1EF3;"/>
+            <when state="Hook Above Mode" output="&#x1EF7;"/>
+            <when state="Hook mode" output="&#x01B4;"/>
+            <when state="Macron mode" output="&#x0233;"/>
+            <when state="Ring Above Mode" output="&#x1E99;"/>
+            <when state="Smiley Mode" output="&#x021D;"/>
+            <when state="Tilde Above Mode" output="&#x1EF9;"/>
+        </action>
+        <action id="11">
+            <when state="none" next="Double Acute Mode"/>
+        </action>
+        <action id="12">
+            <when state="none" next="Ring Above Mode"/>
+        </action>
+        <action id="13">
+            <when state="none" next="Comma-Below Mode"/>
+        </action>
+        <action id="14">
+            <when state="none" next="Stroke Mode"/>
+        </action>
+        <action id="15">
+            <when state="none" next="Dot-Below Mode"/>
+        </action>
+        <action id="16">
+            <when state="none" next="Smiley Mode"/>
+        </action>
+        <action id="17">
+            <when state="none" next="Hook mode"/>
+        </action>
+        <action id="18">
+            <when state="none" next="Hook Above Mode"/>
+        </action>
+        <action id="19">
+            <when state="none" next="Circumflex Below Mode"/>
+        </action>
+        <action id="2">
+            <when state="none" next="Circumflex Mode"/>
+        </action>
+        <action id="20">
+            <when state="none" next="Line Below Mode"/>
+        </action>
+        <action id="21">
+            <when state="none" next="Horn Mode"/>
+        </action>
+        <action id="22">
+            <when state="none" next="Tilde Below Mode"/>
+        </action>
+        <action id="23">
+            <when state="none" next="Double Grave Mode"/>
+        </action>
+        <action id="24">
+            <when state="none" next="Inverted Breve Mode"/>
+        </action>
+        <action id="25">
+            <when state="none" output=" "/>
+            <when state="Acute Mode" output="&#x00B4;"/>
+            <when state="Breve Mode" output="&#x02D8;"/>
+            <when state="Caron mode" output="&#x02C7;"/>
+            <when state="Cedilla Mode" output="&#x00B8;"/>
+            <when state="Circumflex Below Mode" output="&#x2038;"/>
+            <when state="Circumflex Mode" output="&#x02C6;"/>
+            <when state="Comma-Below Mode" output=","/>
+            <when state="Diaeresis Mode" output="&#x00A8;"/>
+            <when state="Dot-Above Mode" output="&#x02D9;"/>
+            <when state="Dot-Below Mode" output="."/>
+            <when state="Double Acute Mode" output="&#x02DD;"/>
+            <when state="Double Grave Mode" output="&#x00A0;&#x030F;"/>
+            <when state="Grave Mode" output="`"/>
+            <when state="Hook Above Mode" output="&#x02C0;"/>
+            <when state="Hook mode" output="&#x0294;"/>
+            <when state="Horn Mode" output="&#x02BC;"/>
+            <when state="Inverted Breve Mode" output="&#x00A0;&#x0311;"/>
+            <when state="Line Below Mode" output="&#x02CD;"/>
+            <when state="Macron mode" output="&#x00AF;"/>
+            <when state="Ogonek Mode" output="&#x02DB;"/>
+            <when state="Ring Above Mode" output="&#x02DA;"/>
+            <when state="Smiley Mode" output="&#x1F636;"/>
+            <when state="Stroke Mode" output="-"/>
+            <when state="Tilde Above Mode" output="&#x02DC;"/>
+            <when state="Tilde Below Mode" output="&#x00A0;&#x0330;"/>
+        </action>
+        <action id="26">
+            <when state="none" output="A"/>
+            <when state="Acute Mode" output="&#x00C1;"/>
+            <when state="Breve Mode" output="&#x0102;"/>
+            <when state="Caron mode" output="&#x01CD;"/>
+            <when state="Circumflex Mode" output="&#x00C2;"/>
+            <when state="Diaeresis Mode" output="&#x00C4;"/>
+            <when state="Dot-Above Mode" output="&#x0226;"/>
+            <when state="Dot-Below Mode" output="&#x1EA0;"/>
+            <when state="Double Grave Mode" output="&#x0200;"/>
+            <when state="Grave Mode" output="&#x00C0;"/>
+            <when state="Hook Above Mode" output="&#x1EA2;"/>
+            <when state="Inverted Breve Mode" output="&#x0202;"/>
+            <when state="Macron mode" output="&#x0100;"/>
+            <when state="Ogonek Mode" output="&#x0104;"/>
+            <when state="Ring Above Mode" output="&#x00C5;"/>
+            <when state="Smiley Mode" output="&#x018F;"/>
+            <when state="Tilde Above Mode" output="&#x00C3;"/>
+        </action>
+        <action id="27">
+            <when state="none" output="a"/>
+            <when state="Acute Mode" output="&#x00E1;"/>
+            <when state="Breve Mode" output="&#x0103;"/>
+            <when state="Caron mode" output="&#x01CE;"/>
+            <when state="Circumflex Mode" output="&#x00E2;"/>
+            <when state="Diaeresis Mode" output="&#x00E4;"/>
+            <when state="Dot-Above Mode" output="&#x0227;"/>
+            <when state="Dot-Below Mode" output="&#x1EA1;"/>
+            <when state="Double Grave Mode" output="&#x0201;"/>
+            <when state="Flag-1 Mode" output="&#x1F1E6;"/>
+            <when state="Grave Mode" output="&#x00E0;"/>
+            <when state="Hook Above Mode" output="&#x1EA3;"/>
+            <when state="Inverted Breve Mode" output="&#x0203;"/>
+            <when state="Macron mode" output="&#x0101;"/>
+            <when state="Ogonek Mode" output="&#x0105;"/>
+            <when state="Ring Above Mode" output="&#x00E5;"/>
+            <when state="Smiley Mode" output="&#x0259;"/>
+            <when state="Tilde Above Mode" output="&#x00E3;"/>
+        </action>
+        <action id="28">
+            <when state="none" output="B"/>
+            <when state="Dot-Above Mode" output="&#x1E02;"/>
+            <when state="Dot-Below Mode" output="&#x1E04;"/>
+            <when state="Hook mode" output="&#x0181;"/>
+            <when state="Line Below Mode" output="&#x1E06;"/>
+        </action>
+        <action id="29">
+            <when state="none" output="b"/>
+            <when state="Dot-Above Mode" output="&#x1E03;"/>
+            <when state="Dot-Below Mode" output="&#x1E05;"/>
+            <when state="Flag-1 Mode" output="&#x1F1E7;"/>
+            <when state="Hook mode" output="&#x0253;"/>
+            <when state="Line Below Mode" output="&#x1E07;"/>
+            <when state="Stroke Mode" output="&#x0180;"/>
+        </action>
+        <action id="3">
+            <when state="none" next="Diaeresis Mode"/>
+        </action>
+        <action id="30">
+            <when state="none" output="C"/>
+            <when state="Acute Mode" output="&#x0106;"/>
+            <when state="Caron mode" output="&#x010C;"/>
+            <when state="Cedilla Mode" output="&#x00C7;"/>
+            <when state="Circumflex Mode" output="&#x0108;"/>
+            <when state="Dot-Above Mode" output="&#x010A;"/>
+            <when state="Hook mode" output="&#x0187;"/>
+            <when state="Smiley Mode" output="&#x0186;"/>
+        </action>
+        <action id="31">
+            <when state="none" output="c"/>
+            <when state="Acute Mode" output="&#x0107;"/>
+            <when state="Caron mode" output="&#x010D;"/>
+            <when state="Cedilla Mode" output="&#x00E7;"/>
+            <when state="Circled Mode" output="&#x00A9;"/>
+            <when state="Circumflex Mode" output="&#x0109;"/>
+            <when state="Dot-Above Mode" output="&#x010B;"/>
+            <when state="Flag-1 Mode" output="&#x1F1E8;"/>
+            <when state="Hook mode" output="&#x0188;"/>
+            <when state="Smiley Mode" output="&#x260E;&#xFE0F;"/>
+        </action>
+        <action id="32">
+            <when state="none" output="D"/>
+            <when state="Caron mode" output="&#x010E;"/>
+            <when state="Cedilla Mode" output="&#x1E10;"/>
+            <when state="Circumflex Below Mode" output="&#x1E12;"/>
+            <when state="Dot-Above Mode" output="&#x1E0A;"/>
+            <when state="Dot-Below Mode" output="&#x1E0C;"/>
+            <when state="Hook mode" output="&#x018A;"/>
+            <when state="Line Below Mode" output="&#x1E0E;"/>
+            <when state="Smiley Mode" output="&#x1F604;"/>
+            <when state="Stroke Mode" output="&#x0110;"/>
+        </action>
+        <action id="33">
+            <when state="none" output="d"/>
+            <when state="Caron mode" output="&#x010F;"/>
+            <when state="Cedilla Mode" output="&#x1E11;"/>
+            <when state="Circumflex Below Mode" output="&#x1E13;"/>
+            <when state="Dot-Above Mode" output="&#x1E0B;"/>
+            <when state="Dot-Below Mode" output="&#x1E0D;"/>
+            <when state="Flag-1 Mode" output="&#x1F1E9;"/>
+            <when state="Hook mode" output="&#x0257;"/>
+            <when state="Line Below Mode" output="&#x1E0F;"/>
+            <when state="Stroke Mode" output="&#x0111;"/>
+        </action>
+        <action id="34">
+            <when state="none" output="E"/>
+            <when state="Acute Mode" output="&#x00C9;"/>
+            <when state="Breve Mode" output="&#x0114;"/>
+            <when state="Caron mode" output="&#x011A;"/>
+            <when state="Cedilla Mode" output="&#x0228;"/>
+            <when state="Circumflex Below Mode" output="&#x1E18;"/>
+            <when state="Circumflex Mode" output="&#x00CA;"/>
+            <when state="Diaeresis Mode" output="&#x00CB;"/>
+            <when state="Dot-Above Mode" output="&#x0116;"/>
+            <when state="Dot-Below Mode" output="&#x1EB8;"/>
+            <when state="Double Grave Mode" output="&#x0204;"/>
+            <when state="Grave Mode" output="&#x00C8;"/>
+            <when state="Hook Above Mode" output="&#x1EBA;"/>
+            <when state="Inverted Breve Mode" output="&#x0206;"/>
+            <when state="Macron mode" output="&#x0112;"/>
+            <when state="Ogonek Mode" output="&#x0118;"/>
+            <when state="Ring Above Mode" output="E&#x030A;"/>
+            <when state="Smiley Mode" output="&#x018E;"/>
+            <when state="Tilde Above Mode" output="&#x1EBC;"/>
+            <when state="Tilde Below Mode" output="&#x1E1A;"/>
+        </action>
+        <action id="35">
+            <when state="none" output="e"/>
+            <when state="Acute Mode" output="&#x00E9;"/>
+            <when state="Breve Mode" output="&#x0115;"/>
+            <when state="Caron mode" output="&#x011B;"/>
+            <when state="Cedilla Mode" output="&#x0229;"/>
+            <when state="Circumflex Below Mode" output="&#x1E19;"/>
+            <when state="Circumflex Mode" output="&#x00EA;"/>
+            <when state="Diaeresis Mode" output="&#x00EB;"/>
+            <when state="Dot-Above Mode" output="&#x0117;"/>
+            <when state="Dot-Below Mode" output="&#x1EB9;"/>
+            <when state="Double Grave Mode" output="&#x0205;"/>
+            <when state="Flag-1 Mode" output="&#x1F1EA;"/>
+            <when state="Grave Mode" output="&#x00E8;"/>
+            <when state="Hook Above Mode" output="&#x1EBB;"/>
+            <when state="Inverted Breve Mode" output="&#x0207;"/>
+            <when state="Macron mode" output="&#x0113;"/>
+            <when state="Ogonek Mode" output="&#x0119;"/>
+            <when state="Ring Above Mode" output="e&#x030A;"/>
+            <when state="Smiley Mode" output="&#x01DD;"/>
+            <when state="Tilde Above Mode" output="&#x1EBD;"/>
+            <when state="Tilde Below Mode" output="&#x1E1B;"/>
+        </action>
+        <action id="36">
+            <when state="none" output="F"/>
+            <when state="Dot-Above Mode" output="&#x1E1E;"/>
+            <when state="Hook mode" output="&#x0191;"/>
+        </action>
+        <action id="37">
+            <when state="none" output="f"/>
+            <when state="Dot-Above Mode" output="&#x1E1F;"/>
+            <when state="Flag-1 Mode" output="&#x1F1EB;"/>
+            <when state="Hook mode" output="&#x0192;"/>
+            <when state="Smiley Mode" output="&#x1F525;"/>
+        </action>
+        <action id="38">
+            <when state="none" output="G"/>
+            <when state="Acute Mode" output="&#x01F4;"/>
+            <when state="Breve Mode" output="&#x011E;"/>
+            <when state="Caron mode" output="&#x01E6;"/>
+            <when state="Cedilla Mode" output="&#x0122;"/>
+            <when state="Circumflex Mode" output="&#x011C;"/>
+            <when state="Dot-Above Mode" output="&#x0120;"/>
+            <when state="Hook mode" output="&#x0193;"/>
+            <when state="Macron mode" output="&#x1E20;"/>
+            <when state="Smiley Mode" output="&#x0194;"/>
+            <when state="Stroke Mode" output="&#x01E4;"/>
+        </action>
+        <action id="39">
+            <when state="none" output="g"/>
+            <when state="Acute Mode" output="&#x01F5;"/>
+            <when state="Breve Mode" output="&#x011F;"/>
+            <when state="Caron mode" output="&#x01E7;"/>
+            <when state="Cedilla Mode" output="&#x0123;"/>
+            <when state="Circumflex Mode" output="&#x011D;"/>
+            <when state="Dot-Above Mode" output="&#x0121;"/>
+            <when state="Flag-1 Mode" output="&#x1F1EC;"/>
+            <when state="Hook mode" output="&#x0260;"/>
+            <when state="Macron mode" output="&#x1E21;"/>
+            <when state="Smiley Mode" output="&#x0263;"/>
+            <when state="Stroke Mode" output="&#x01E5;"/>
+        </action>
+        <action id="4">
+            <when state="none" next="Tilde Above Mode"/>
+        </action>
+        <action id="4 1">
+            <when state="none" output="4"/>
+            <when state="Smiley Mode" output="&#x1F340;"/>
+        </action>
+        <action id="40">
+            <when state="none" output="H"/>
+            <when state="Breve Mode" output="&#x1E2A;"/>
+            <when state="Caron mode" output="&#x021E;"/>
+            <when state="Cedilla Mode" output="&#x1E28;"/>
+            <when state="Circumflex Mode" output="&#x0124;"/>
+            <when state="Diaeresis Mode" output="&#x1E26;"/>
+            <when state="Dot-Above Mode" output="&#x1E22;"/>
+            <when state="Dot-Below Mode" output="&#x1E24;"/>
+            <when state="Line Below Mode" output="H&#x0331;"/>
+            <when state="Smiley Mode" output="&#x01F6;"/>
+            <when state="Stroke Mode" output="&#x0126;"/>
+        </action>
+        <action id="41">
+            <when state="none" output="h"/>
+            <when state="Breve Mode" output="&#x1E2B;"/>
+            <when state="Caron mode" output="&#x021F;"/>
+            <when state="Cedilla Mode" output="&#x1E29;"/>
+            <when state="Circumflex Mode" output="&#x0125;"/>
+            <when state="Diaeresis Mode" output="&#x1E27;"/>
+            <when state="Dot-Above Mode" output="&#x1E23;"/>
+            <when state="Dot-Below Mode" output="&#x1E25;"/>
+            <when state="Flag-1 Mode" output="&#x1F1ED;"/>
+            <when state="Hook mode" output="&#x0266;"/>
+            <when state="Line Below Mode" output="&#x1E96;"/>
+            <when state="Smiley Mode" output="&#x0195;"/>
+            <when state="Stroke Mode" output="&#x0127;"/>
+        </action>
+        <action id="42">
+            <when state="none" output="I"/>
+            <when state="Acute Mode" output="&#x00CD;"/>
+            <when state="Breve Mode" output="&#x012C;"/>
+            <when state="Caron mode" output="&#x01CF;"/>
+            <when state="Circumflex Mode" output="&#x00CE;"/>
+            <when state="Diaeresis Mode" output="&#x00CF;"/>
+            <when state="Dot-Above Mode" output="&#x0130;"/>
+            <when state="Dot-Below Mode" output="&#x1ECA;"/>
+            <when state="Double Grave Mode" output="&#x0208;"/>
+            <when state="Grave Mode" output="&#x00CC;"/>
+            <when state="Hook Above Mode" output="&#x1EC8;"/>
+            <when state="Hook mode" output="&#x0196;"/>
+            <when state="Inverted Breve Mode" output="&#x020A;"/>
+            <when state="Macron mode" output="&#x012A;"/>
+            <when state="Ogonek Mode" output="&#x012E;"/>
+            <when state="Stroke Mode" output="&#x0197;"/>
+            <when state="Tilde Above Mode" output="&#x0128;"/>
+            <when state="Tilde Below Mode" output="&#x1E2C;"/>
+        </action>
+        <action id="43">
+            <when state="none" output="i"/>
+            <when state="Acute Mode" output="&#x00ED;"/>
+            <when state="Breve Mode" output="&#x012D;"/>
+            <when state="Caron mode" output="&#x01D0;"/>
+            <when state="Circumflex Mode" output="&#x00EE;"/>
+            <when state="Diaeresis Mode" output="&#x00EF;"/>
+            <when state="Dot-Above Mode" output="&#x0131;"/>
+            <when state="Dot-Below Mode" output="&#x1ECB;"/>
+            <when state="Double Grave Mode" output="&#x0209;"/>
+            <when state="Flag-1 Mode" output="&#x1F1EE;"/>
+            <when state="Grave Mode" output="&#x00EC;"/>
+            <when state="Hook Above Mode" output="&#x1EC9;"/>
+            <when state="Hook mode" output="&#x0269;"/>
+            <when state="Inverted Breve Mode" output="&#x020B;"/>
+            <when state="Macron mode" output="&#x012B;"/>
+            <when state="Ogonek Mode" output="&#x012F;"/>
+            <when state="Stroke Mode" output="&#x0268;"/>
+            <when state="Tilde Above Mode" output="&#x0129;"/>
+            <when state="Tilde Below Mode" output="&#x1E2D;"/>
+        </action>
+        <action id="44">
+            <when state="none" output="J"/>
+            <when state="Caron mode" output="J&#x030C;"/>
+            <when state="Circumflex Mode" output="&#x0134;"/>
+            <when state="Smiley Mode" output="&#x0220;"/>
+        </action>
+        <action id="45">
+            <when state="none" output="j"/>
+            <when state="Caron mode" output="&#x01F0;"/>
+            <when state="Circumflex Mode" output="&#x0135;"/>
+            <when state="Flag-1 Mode" output="&#x1F1EF;"/>
+            <when state="Smiley Mode" output="&#x019E;"/>
+        </action>
+        <action id="46">
+            <when state="none" output="K"/>
+            <when state="Acute Mode" output="&#x1E30;"/>
+            <when state="Caron mode" output="&#x01E8;"/>
+            <when state="Cedilla Mode" output="&#x0136;"/>
+            <when state="Dot-Below Mode" output="&#x1E32;"/>
+            <when state="Hook mode" output="&#x0198;"/>
+            <when state="Line Below Mode" output="&#x1E34;"/>
+            <when state="Smiley Mode" output="K&#x2019;"/>
+        </action>
+        <action id="47">
+            <when state="none" output="k"/>
+            <when state="Acute Mode" output="&#x1E31;"/>
+            <when state="Caron mode" output="&#x01E9;"/>
+            <when state="Cedilla Mode" output="&#x0137;"/>
+            <when state="Dot-Below Mode" output="&#x1E33;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F0;"/>
+            <when state="Hook mode" output="&#x0199;"/>
+            <when state="Line Below Mode" output="&#x1E35;"/>
+            <when state="Smiley Mode" output="&#x0138;"/>
+        </action>
+        <action id="48">
+            <when state="none" output="L"/>
+            <when state="Acute Mode" output="&#x0139;"/>
+            <when state="Caron mode" output="&#x013D;"/>
+            <when state="Cedilla Mode" output="&#x013B;"/>
+            <when state="Circumflex Below Mode" output="&#x1E3C;"/>
+            <when state="Dot-Below Mode" output="&#x1E36;"/>
+            <when state="Line Below Mode" output="&#x1E3A;"/>
+            <when state="Macron mode" output="L&#x0323;&#x0304;"/>
+            <when state="Stroke Mode" output="&#x0141;"/>
+        </action>
+        <action id="49">
+            <when state="none" output="l"/>
+            <when state="Acute Mode" output="&#x013A;"/>
+            <when state="Caron mode" output="&#x013E;"/>
+            <when state="Cedilla Mode" output="&#x013C;"/>
+            <when state="Circumflex Below Mode" output="&#x1E3D;"/>
+            <when state="Dot-Below Mode" output="&#x1E37;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F1;"/>
+            <when state="Line Below Mode" output="&#x1E3B;"/>
+            <when state="Macron mode" output="l&#x0323;&#x0304;"/>
+            <when state="Stroke Mode" output="&#x0142;"/>
+        </action>
+        <action id="5">
+            <when state="none" next="Cedilla Mode"/>
+        </action>
+        <action id="50">
+            <when state="none" output="M"/>
+            <when state="Acute Mode" output="&#x1E3E;"/>
+            <when state="Circumflex Mode" output="M&#x0302;"/>
+            <when state="Dot-Above Mode" output="&#x1E40;"/>
+            <when state="Dot-Below Mode" output="&#x1E42;"/>
+            <when state="Smiley Mode" output="&#x019C;"/>
+        </action>
+        <action id="51">
+            <when state="none" output="m"/>
+            <when state="Acute Mode" output="&#x1E3F;"/>
+            <when state="Circumflex Mode" output="m&#x0302;"/>
+            <when state="Dot-Above Mode" output="&#x1E41;"/>
+            <when state="Dot-Below Mode" output="&#x1E43;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F2;"/>
+            <when state="Smiley Mode" output="&#x026F;"/>
+        </action>
+        <action id="52">
+            <when state="none" output="N"/>
+            <when state="Acute Mode" output="&#x0143;"/>
+            <when state="Caron mode" output="&#x0147;"/>
+            <when state="Cedilla Mode" output="&#x0145;"/>
+            <when state="Circumflex Below Mode" output="&#x1E4A;"/>
+            <when state="Circumflex Mode" output="N&#x0302;"/>
+            <when state="Dot-Above Mode" output="&#x1E44;"/>
+            <when state="Dot-Below Mode" output="&#x1E46;"/>
+            <when state="Grave Mode" output="&#x01F8;"/>
+            <when state="Hook mode" output="&#x019D;"/>
+            <when state="Line Below Mode" output="&#x1E48;"/>
+            <when state="Smiley Mode" output="&#x014A;"/>
+            <when state="Tilde Above Mode" output="&#x00D1;"/>
+        </action>
+        <action id="53">
+            <when state="none" output="n"/>
+            <when state="Acute Mode" output="&#x0144;"/>
+            <when state="Caron mode" output="&#x0148;"/>
+            <when state="Cedilla Mode" output="&#x0146;"/>
+            <when state="Circumflex Below Mode" output="&#x1E4B;"/>
+            <when state="Circumflex Mode" output="n&#x0302;"/>
+            <when state="Dot-Above Mode" output="&#x1E45;"/>
+            <when state="Dot-Below Mode" output="&#x1E47;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F3;"/>
+            <when state="Grave Mode" output="&#x01F9;"/>
+            <when state="Hook mode" output="&#x0272;"/>
+            <when state="Line Below Mode" output="&#x1E49;"/>
+            <when state="Smiley Mode" output="&#x014B;"/>
+            <when state="Tilde Above Mode" output="&#x00F1;"/>
+        </action>
+        <action id="54">
+            <when state="none" output="O"/>
+            <when state="Acute Mode" output="&#x00D3;"/>
+            <when state="Breve Mode" output="&#x014E;"/>
+            <when state="Caron mode" output="&#x01D1;"/>
+            <when state="Circumflex Mode" output="&#x00D4;"/>
+            <when state="Diaeresis Mode" output="&#x00D6;"/>
+            <when state="Dot-Above Mode" output="&#x022E;"/>
+            <when state="Dot-Below Mode" output="&#x1ECC;"/>
+            <when state="Double Acute Mode" output="&#x0150;"/>
+            <when state="Double Grave Mode" output="&#x020C;"/>
+            <when state="Grave Mode" output="&#x00D2;"/>
+            <when state="Hook Above Mode" output="&#x1ECE;"/>
+            <when state="Horn Mode" output="&#x01A0;"/>
+            <when state="Inverted Breve Mode" output="&#x020E;"/>
+            <when state="Macron mode" output="&#x014C;"/>
+            <when state="Ogonek Mode" output="&#x01EA;"/>
+            <when state="Ring Above Mode" output="O&#x030A;"/>
+            <when state="Stroke Mode" output="&#x019F;"/>
+            <when state="Tilde Above Mode" output="&#x00D5;"/>
+        </action>
+        <action id="55">
+            <when state="none" output="o"/>
+            <when state="Acute Mode" output="&#x00F3;"/>
+            <when state="Breve Mode" output="&#x014F;"/>
+            <when state="Caron mode" output="&#x01D2;"/>
+            <when state="Circumflex Mode" output="&#x00F4;"/>
+            <when state="Diaeresis Mode" output="&#x00F6;"/>
+            <when state="Dot-Above Mode" output="&#x022F;"/>
+            <when state="Dot-Below Mode" output="&#x1ECD;"/>
+            <when state="Double Acute Mode" output="&#x0151;"/>
+            <when state="Double Grave Mode" output="&#x020D;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F4;"/>
+            <when state="Grave Mode" output="&#x00F2;"/>
+            <when state="Hook Above Mode" output="&#x1ECF;"/>
+            <when state="Horn Mode" output="&#x01A1;"/>
+            <when state="Inverted Breve Mode" output="&#x020F;"/>
+            <when state="Macron mode" output="&#x014D;"/>
+            <when state="Ogonek Mode" output="&#x01EB;"/>
+            <when state="Ring Above Mode" output="o&#x030A;"/>
+            <when state="Stroke Mode" output="&#x0275;"/>
+            <when state="Tilde Above Mode" output="&#x00F5;"/>
+        </action>
+        <action id="56">
+            <when state="none" output="P"/>
+            <when state="Acute Mode" output="&#x1E54;"/>
+            <when state="Dot-Above Mode" output="&#x1E56;"/>
+            <when state="Hook mode" output="&#x01A4;"/>
+            <when state="Smiley Mode" output="&#x1F61C;"/>
+        </action>
+        <action id="57">
+            <when state="none" output="p"/>
+            <when state="Acute Mode" output="&#x1E55;"/>
+            <when state="Dot-Above Mode" output="&#x1E57;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F5;"/>
+            <when state="Hook mode" output="&#x01A5;"/>
+        </action>
+        <action id="58">
+            <when state="none" output="Q"/>
+            <when state="Smiley Mode" output="&#x01A2;"/>
+        </action>
+        <action id="59">
+            <when state="none" output="q"/>
+            <when state="Flag-1 Mode" output="&#x1F1F6;"/>
+            <when state="Hook mode" output="&#x02A0;"/>
+            <when state="Smiley Mode" output="&#x01A3;"/>
+        </action>
+        <action id="6">
+            <when state="none" next="Breve Mode"/>
+        </action>
+        <action id="60">
+            <when state="none" output="R"/>
+            <when state="Acute Mode" output="&#x0154;"/>
+            <when state="Caron mode" output="&#x0158;"/>
+            <when state="Cedilla Mode" output="&#x0156;"/>
+            <when state="Dot-Above Mode" output="&#x1E58;"/>
+            <when state="Dot-Below Mode" output="&#x1E5A;"/>
+            <when state="Double Grave Mode" output="&#x0210;"/>
+            <when state="Hook mode" output="&#x01AE;"/>
+            <when state="Inverted Breve Mode" output="&#x0212;"/>
+            <when state="Line Below Mode" output="&#x1E5E;"/>
+            <when state="Macron mode" output="R&#x0323;&#x0304;"/>
+            <when state="Smiley Mode" output="&#x01A6;"/>
+        </action>
+        <action id="61">
+            <when state="none" output="r"/>
+            <when state="Acute Mode" output="&#x0155;"/>
+            <when state="Caron mode" output="&#x0159;"/>
+            <when state="Cedilla Mode" output="&#x0157;"/>
+            <when state="Circled Mode" output="&#x00AE;"/>
+            <when state="Dot-Above Mode" output="&#x1E59;"/>
+            <when state="Dot-Below Mode" output="&#x1E5B;"/>
+            <when state="Double Grave Mode" output="&#x0211;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F7;"/>
+            <when state="Hook mode" output="&#x0288;"/>
+            <when state="Inverted Breve Mode" output="&#x0213;"/>
+            <when state="Line Below Mode" output="&#x1E5F;"/>
+            <when state="Macron mode" output="r&#x0323;&#x0304;"/>
+            <when state="Smiley Mode" output="&#x0280;"/>
+        </action>
+        <action id="62">
+            <when state="none" output="S"/>
+            <when state="Acute Mode" output="&#x015A;"/>
+            <when state="Caron mode" output="&#x0160;"/>
+            <when state="Cedilla Mode" output="&#x015E;"/>
+            <when state="Circumflex Mode" output="&#x015C;"/>
+            <when state="Comma-Below Mode" output="&#x0218;"/>
+            <when state="Dot-Above Mode" output="&#x1E60;"/>
+            <when state="Dot-Below Mode" output="&#x1E62;"/>
+            <when state="Hook mode" output="&#x01A9;"/>
+            <when state="Macron mode" output="S&#x0304;"/>
+        </action>
+        <action id="63">
+            <when state="none" output="s"/>
+            <when state="Acute Mode" output="&#x015B;"/>
+            <when state="Caron mode" output="&#x0161;"/>
+            <when state="Cedilla Mode" output="&#x015F;"/>
+            <when state="Circumflex Mode" output="&#x015D;"/>
+            <when state="Comma-Below Mode" output="&#x0219;"/>
+            <when state="Dot-Above Mode" output="&#x1E61;"/>
+            <when state="Dot-Below Mode" output="&#x1E63;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F8;"/>
+            <when state="Hook mode" output="&#x0283;"/>
+            <when state="Macron mode" output="s&#x0304;"/>
+            <when state="Smiley Mode" output="&#x2702;&#xFE0F;"/>
+        </action>
+        <action id="64">
+            <when state="none" output="T"/>
+            <when state="Caron mode" output="&#x0164;"/>
+            <when state="Cedilla Mode" output="&#x0162;"/>
+            <when state="Circumflex Below Mode" output="&#x1E70;"/>
+            <when state="Comma-Below Mode" output="&#x021A;"/>
+            <when state="Diaeresis Mode" output="T&#x0308;"/>
+            <when state="Dot-Above Mode" output="&#x1E6A;"/>
+            <when state="Dot-Below Mode" output="&#x1E6C;"/>
+            <when state="Hook mode" output="&#x01AC;"/>
+            <when state="Line Below Mode" output="&#x1E6E;"/>
+            <when state="Stroke Mode" output="&#x0166;"/>
+        </action>
+        <action id="65">
+            <when state="none" output="t"/>
+            <when state="Caron mode" output="&#x0165;"/>
+            <when state="Cedilla Mode" output="&#x0163;"/>
+            <when state="Circumflex Below Mode" output="&#x1E71;"/>
+            <when state="Comma-Below Mode" output="&#x021B;"/>
+            <when state="Diaeresis Mode" output="&#x1E97;"/>
+            <when state="Dot-Above Mode" output="&#x1E6B;"/>
+            <when state="Dot-Below Mode" output="&#x1E6D;"/>
+            <when state="Flag-1 Mode" output="&#x1F1F9;"/>
+            <when state="Hook mode" output="&#x01AD;"/>
+            <when state="Line Below Mode" output="&#x1E6F;"/>
+            <when state="Smiley Mode" output="&#x1F333;"/>
+            <when state="Stroke Mode" output="&#x0167;"/>
+        </action>
+        <action id="66">
+            <when state="none" output="U"/>
+            <when state="Acute Mode" output="&#x00DA;"/>
+            <when state="Breve Mode" output="&#x016C;"/>
+            <when state="Caron mode" output="&#x01D3;"/>
+            <when state="Circumflex Below Mode" output="&#x1E76;"/>
+            <when state="Circumflex Mode" output="&#x00DB;"/>
+            <when state="Diaeresis Mode" output="&#x00DC;"/>
+            <when state="Dot-Below Mode" output="&#x1EE4;"/>
+            <when state="Double Acute Mode" output="&#x0170;"/>
+            <when state="Double Grave Mode" output="&#x0214;"/>
+            <when state="Grave Mode" output="&#x00D9;"/>
+            <when state="Hook Above Mode" output="&#x1EE6;"/>
+            <when state="Hook mode" output="&#x01B2;"/>
+            <when state="Horn Mode" output="&#x01AF;"/>
+            <when state="Inverted Breve Mode" output="&#x0216;"/>
+            <when state="Macron mode" output="&#x016A;"/>
+            <when state="Ogonek Mode" output="&#x0172;"/>
+            <when state="Ring Above Mode" output="&#x016E;"/>
+            <when state="Smiley Mode" output="&#x01B1;"/>
+            <when state="Tilde Above Mode" output="&#x0168;"/>
+            <when state="Tilde Below Mode" output="&#x1E74;"/>
+        </action>
+        <action id="67">
+            <when state="none" output="u"/>
+            <when state="Acute Mode" output="&#x00FA;"/>
+            <when state="Breve Mode" output="&#x016D;"/>
+            <when state="Caron mode" output="&#x01D4;"/>
+            <when state="Circumflex Below Mode" output="&#x1E77;"/>
+            <when state="Circumflex Mode" output="&#x00FB;"/>
+            <when state="Diaeresis Mode" output="&#x00FC;"/>
+            <when state="Dot-Below Mode" output="&#x1EE5;"/>
+            <when state="Double Acute Mode" output="&#x0171;"/>
+            <when state="Double Grave Mode" output="&#x0215;"/>
+            <when state="Flag-1 Mode" output="&#x1F1FA;"/>
+            <when state="Grave Mode" output="&#x00F9;"/>
+            <when state="Hook Above Mode" output="&#x1EE7;"/>
+            <when state="Hook mode" output="&#x028B;"/>
+            <when state="Horn Mode" output="&#x01B0;"/>
+            <when state="Inverted Breve Mode" output="&#x0217;"/>
+            <when state="Macron mode" output="&#x016B;"/>
+            <when state="Ogonek Mode" output="&#x0173;"/>
+            <when state="Ring Above Mode" output="&#x016F;"/>
+            <when state="Smiley Mode" output="&#x028A;"/>
+            <when state="Stroke Mode" output="&#x0289;"/>
+            <when state="Tilde Above Mode" output="&#x0169;"/>
+            <when state="Tilde Below Mode" output="&#x1E75;"/>
+        </action>
+        <action id="68">
+            <when state="none" output="V"/>
+            <when state="Acute Mode" output="&#x01D7;"/>
+            <when state="Caron mode" output="&#x01D9;"/>
+            <when state="Dot-Below Mode" output="&#x1E7E;"/>
+            <when state="Grave Mode" output="&#x01DB;"/>
+            <when state="Macron mode" output="&#x01D5;"/>
+            <when state="Tilde Above Mode" output="&#x1E7C;"/>
+        </action>
+        <action id="69">
+            <when state="none" output="v"/>
+            <when state="Acute Mode" output="&#x01D8;"/>
+            <when state="Caron mode" output="&#x01DA;"/>
+            <when state="Dot-Below Mode" output="&#x1E7F;"/>
+            <when state="Flag-1 Mode" output="&#x1F1FB;"/>
+            <when state="Grave Mode" output="&#x01DC;"/>
+            <when state="Macron mode" output="&#x01D6;"/>
+            <when state="Smiley Mode" output="&#x2B07;&#xFE0F;"/>
+            <when state="Tilde Above Mode" output="&#x1E7D;"/>
+        </action>
+        <action id="7">
+            <when state="none" next="Macron mode"/>
+        </action>
+        <action id="70">
+            <when state="none" output="W"/>
+            <when state="Acute Mode" output="&#x1E82;"/>
+            <when state="Circumflex Mode" output="&#x0174;"/>
+            <when state="Diaeresis Mode" output="&#x1E84;"/>
+            <when state="Dot-Above Mode" output="&#x1E86;"/>
+            <when state="Dot-Below Mode" output="&#x1E88;"/>
+            <when state="Grave Mode" output="&#x1E80;"/>
+            <when state="Ring Above Mode" output="W&#x030A;"/>
+            <when state="Smiley Mode" output="&#x01F7;"/>
+        </action>
+        <action id="71">
+            <when state="none" output="w"/>
+            <when state="Acute Mode" output="&#x1E83;"/>
+            <when state="Circumflex Mode" output="&#x0175;"/>
+            <when state="Diaeresis Mode" output="&#x1E85;"/>
+            <when state="Dot-Above Mode" output="&#x1E87;"/>
+            <when state="Dot-Below Mode" output="&#x1E89;"/>
+            <when state="Flag-1 Mode" output="&#x1F1FC;"/>
+            <when state="Grave Mode" output="&#x1E81;"/>
+            <when state="Ring Above Mode" output="&#x1E98;"/>
+            <when state="Smiley Mode" output="&#x01BF;"/>
+        </action>
+        <action id="72">
+            <when state="none" output="X"/>
+            <when state="Caron mode" output="&#x01B7;&#x030C;"/>
+            <when state="Diaeresis Mode" output="&#x1E8C;"/>
+            <when state="Dot-Above Mode" output="&#x1E8A;"/>
+            <when state="Hook mode" output="&#x0189;"/>
+        </action>
+        <action id="73">
+            <when state="none" output="x"/>
+            <when state="Caron mode" output="&#x0292;&#x030C;"/>
+            <when state="Diaeresis Mode" output="&#x1E8D;"/>
+            <when state="Dot-Above Mode" output="&#x1E8B;"/>
+            <when state="Flag-1 Mode" output="&#x1F1FD;"/>
+            <when state="Hook mode" output="&#x0256;"/>
+            <when state="Smiley Mode" output="&#x274C;"/>
+        </action>
+        <action id="74">
+            <when state="none" output="Y"/>
+            <when state="Acute Mode" output="&#x00DD;"/>
+            <when state="Circumflex Mode" output="&#x0176;"/>
+            <when state="Diaeresis Mode" output="&#x0178;"/>
+            <when state="Dot-Above Mode" output="&#x1E8E;"/>
+            <when state="Dot-Below Mode" output="&#x1EF4;"/>
+            <when state="Grave Mode" output="&#x1EF2;"/>
+            <when state="Hook Above Mode" output="&#x1EF6;"/>
+            <when state="Hook mode" output="&#x01B3;"/>
+            <when state="Macron mode" output="&#x0232;"/>
+            <when state="Ring Above Mode" output="Y&#x030A;"/>
+            <when state="Smiley Mode" output="&#x021C;"/>
+            <when state="Tilde Above Mode" output="&#x1EF8;"/>
+        </action>
+        <action id="75">
+            <when state="none" output="y"/>
+            <when state="Acute Mode" output="&#x00FD;"/>
+            <when state="Circumflex Mode" output="&#x0177;"/>
+            <when state="Diaeresis Mode" output="&#x00FF;"/>
+            <when state="Dot-Above Mode" output="&#x1E8F;"/>
+            <when state="Dot-Below Mode" output="&#x1EF5;"/>
+            <when state="Flag-1 Mode" output="&#x1F1FE;"/>
+            <when state="Grave Mode" output="&#x1EF3;"/>
+            <when state="Hook Above Mode" output="&#x1EF7;"/>
+            <when state="Hook mode" output="&#x01B4;"/>
+            <when state="Macron mode" output="&#x0233;"/>
+            <when state="Ring Above Mode" output="&#x1E99;"/>
+            <when state="Smiley Mode" output="&#x021D;"/>
+            <when state="Tilde Above Mode" output="&#x1EF9;"/>
+        </action>
+        <action id="76">
+            <when state="none" output="Z"/>
+            <when state="Acute Mode" output="&#x0179;"/>
+            <when state="Caron mode" output="&#x017D;"/>
+            <when state="Cedilla Mode" output="Z&#x0327;"/>
+            <when state="Circumflex Mode" output="&#x1E90;"/>
+            <when state="Dot-Above Mode" output="&#x017B;"/>
+            <when state="Dot-Below Mode" output="&#x1E92;"/>
+            <when state="Hook mode" output="&#x0224;"/>
+            <when state="Line Below Mode" output="&#x1E94;"/>
+            <when state="Macron mode" output="Z&#x0304;"/>
+            <when state="Smiley Mode" output="&#x01B7;"/>
+            <when state="Stroke Mode" output="&#x01B5;"/>
+        </action>
+        <action id="77">
+            <when state="none" output="z"/>
+            <when state="Acute Mode" output="&#x017A;"/>
+            <when state="Caron mode" output="&#x017E;"/>
+            <when state="Cedilla Mode" output="z&#x0327;"/>
+            <when state="Circumflex Mode" output="&#x1E91;"/>
+            <when state="Dot-Above Mode" output="&#x017C;"/>
+            <when state="Dot-Below Mode" output="&#x1E93;"/>
+            <when state="Flag-1 Mode" output="&#x1F1FF;"/>
+            <when state="Hook mode" output="&#x0225;"/>
+            <when state="Line Below Mode" output="&#x1E95;"/>
+            <when state="Macron mode" output="z&#x0304;"/>
+            <when state="Smiley Mode" output="&#x1F92A;"/>
+            <when state="Stroke Mode" output="&#x01B6;"/>
+        </action>
+        <action id="78">
+            <when state="none" output="@"/>
+            <when state="Smiley Mode" output="&#x01A7;"/>
+        </action>
+        <action id="79">
+            <when state="none" output="2"/>
+            <when state="Smiley Mode" output="&#x1F465;"/>
+        </action>
+        <action id="8">
+            <when state="none" next="Ogonek Mode"/>
+        </action>
+        <action id="80">
+            <when state="none" output="#"/>
+            <when state="Smiley Mode" output="&#x0190;"/>
+        </action>
+        <action id="81">
+            <when state="none" output="3"/>
+            <when state="Smiley Mode" output="&#x025B;"/>
+        </action>
+        <action id="82">
+            <when state="none" output="%"/>
+            <when state="Smiley Mode" output="&#x01BC;"/>
+        </action>
+        <action id="83">
+            <when state="none" output="5"/>
+            <when state="Smiley Mode" output="&#x1F64C;&#x1F3FD;"/>
+        </action>
+        <action id="84">
+            <when state="none" output="^"/>
+            <when state="Smiley Mode" output="&#x0184;"/>
+        </action>
+        <action id="85">
+            <when state="none" output="6"/>
+            <when state="Smiley Mode" output="&#x0185;"/>
+        </action>
+        <action id="86">
+            <when state="none" output="7"/>
+            <when state="Smiley Mode" output="&#x204A;"/>
+        </action>
+        <action id="87">
+            <when state="none" output="*"/>
+            <when state="Smiley Mode" output="&#x0222;"/>
+        </action>
+        <action id="88">
+            <when state="none" output="8"/>
+            <when state="Smiley Mode" output="&#x1F60E;"/>
+        </action>
+        <action id="89">
+            <when state="none" output="&#x0022;"/>
+            <when state="Smiley Mode" output="&#x1F618;"/>
+        </action>
+        <action id="9">
+            <when state="none" next="Caron mode"/>
+        </action>
+        <action id="9 1">
+            <when state="none" output="9"/>
+        </action>
+        <action id="90">
+            <when state="none" output="&#x0027;"/>
+            <when state="Smiley Mode" output="&#x1F622;"/>
+        </action>
+        <action id="91">
+            <when state="none" output="&#x00C6;"/>
+            <when state="Acute Mode" output="&#x01FC;"/>
+            <when state="Macron mode" output="&#x01E2;"/>
+        </action>
+        <action id="92">
+            <when state="none" output="&#x00E6;"/>
+            <when state="Acute Mode" output="&#x01FD;"/>
+            <when state="Macron mode" output="&#x01E3;"/>
+        </action>
+        <action id="93">
+            <when state="none" output="&#x00D8;"/>
+            <when state="Acute Mode" output="&#x01FE;"/>
+        </action>
+        <action id="94">
+            <when state="none" output="&#x00F8;"/>
+            <when state="Acute Mode" output="&#x01FF;"/>
+        </action>
+        <action id="95">
+            <when state="none" output="&#x00C5;"/>
+            <when state="Acute Mode" output="&#x01FA;"/>
+        </action>
+        <action id="96">
+            <when state="none" output="&#x00E5;"/>
+            <when state="Acute Mode" output="&#x01FB;"/>
+        </action>
+        <action id="97">
+            <when state="none" output="&#x2019;"/>
+            <when state="Smiley Mode" output="&#x02BC;"/>
+        </action>
+        <action id="98">
+            <when state="none" output="&#x2018;"/>
+            <when state="Smiley Mode" output="&#x02BB;"/>
+        </action>
+        <action id="99">
+            <when state="none" output="&#x201C;"/>
+            <when state="Smiley Mode" output="&#x02BD;"/>
+        </action>
+        <action id=";">
+            <when state="none" output=";"/>
+            <when state="Smiley Mode" output="&#x1F609;"/>
+        </action>
+        <action id="|">
+            <when state="none" output="|"/>
+            <when state="Smiley Mode" output="&#x1F610;"/>
+        </action>
+        <action id="&#x00A9;">
+            <when state="none" next="Flag-1 Mode"/>
+        </action>
+        <action id="&#x00B7;">
+            <when state="none" next="Circled Mode"/>
+        </action>
+    </actions>
+    <terminators>
+        <when state="Acute Mode" output="&#x00B4;"/>
+        <when state="Breve Mode" output="&#x02D8;"/>
+        <when state="Caron mode" output="&#x02C7;"/>
+        <when state="Cedilla Mode" output="&#x00B8;"/>
+        <when state="Circled Mode" output=" &#x20DD;"/>
+        <when state="Circumflex Below Mode" output="&#x2038;"/>
+        <when state="Circumflex Mode" output="&#x02C6;"/>
+        <when state="Comma-Below Mode" output=","/>
+        <when state="Diaeresis Mode" output="&#x00A8;"/>
+        <when state="Dot-Above Mode" output="&#x02D9;"/>
+        <when state="Dot-Below Mode" output="."/>
+        <when state="Double Acute Mode" output="&#x02DD;"/>
+        <when state="Double Grave Mode" output="&#x00A0;&#x030F;"/>
+        <when state="Flag-1 Mode" output="&#x2691;"/>
+        <when state="Grave Mode" output="`"/>
+        <when state="Hook Above Mode" output="&#x02C0;"/>
+        <when state="Hook mode" output="&#x0294;"/>
+        <when state="Horn Mode" output="&#x02BC;"/>
+        <when state="Inverted Breve Mode" output="&#x00A0;&#x0311;"/>
+        <when state="Line Below Mode" output="&#x02CD;"/>
+        <when state="Macron mode" output="&#x00AF;"/>
+        <when state="Ogonek Mode" output="&#x02DB;"/>
+        <when state="Ring Above Mode" output="&#x02DA;"/>
+        <when state="Smiley Mode" output="&#x2116;"/>
+        <when state="Stroke Mode" output="-"/>
+        <when state="Tilde Above Mode" output="&#x02DC;"/>
+        <when state="Tilde Below Mode" output="&#x00A0;&#x0330;"/>
+    </terminators>
+</keyboard>
