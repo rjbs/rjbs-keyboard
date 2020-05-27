@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-05-21 at 08:27 (EDT)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-05-27 at 10:02 (EDT)-->
 <keyboard group="126" id="-5622" name="RJBS" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="984" modifiers="f4"/>
@@ -154,7 +154,7 @@
             <key code="27" action="-"/>
             <key code="28" action="88"/>
             <key code="29" action="0 1"/>
-            <key code="30" output="]"/>
+            <key code="30" action="]"/>
             <key code="31" action="55"/>
             <key code="32" action="67"/>
             <key code="33" output="["/>
@@ -1294,7 +1294,7 @@
             <when state="Macron mode" output="ē"/>
             <when state="Ogonek Mode" output="ę"/>
             <when state="Ring Above Mode" output="e̊"/>
-            <when state="Smiley Mode" output="ǝ"/>
+            <when state="Smiley Mode" output="💌"/>
             <when state="Tilde Above Mode" output="ẽ"/>
             <when state="Tilde Below Mode" output="ḛ"/>
         </action>
@@ -1369,7 +1369,7 @@
             <when state="Flag-1 Mode" output="🇭"/>
             <when state="Hook mode" output="ɦ"/>
             <when state="Line Below Mode" output="ẖ"/>
-            <when state="Smiley Mode" output="ƕ"/>
+            <when state="Smiley Mode" output="💙"/>
             <when state="Stroke Mode" output="ħ"/>
         </action>
         <action id="42">
@@ -1409,6 +1409,7 @@
             <when state="Inverted Breve Mode" output="ȋ"/>
             <when state="Macron mode" output="ī"/>
             <when state="Ogonek Mode" output="į"/>
+            <when state="Smiley Mode" output="📬"/>
             <when state="Stroke Mode" output="ɨ"/>
             <when state="Tilde Above Mode" output="ĩ"/>
             <when state="Tilde Below Mode" output="ḭ"/>
@@ -1577,6 +1578,7 @@
             <when state="Dot-Above Mode" output="ṗ"/>
             <when state="Flag-1 Mode" output="🇵"/>
             <when state="Hook mode" output="ƥ"/>
+            <when state="Smiley Mode" output="📦"/>
         </action>
         <action id="58">
             <when state="none" output="Q"/>
@@ -1947,6 +1949,10 @@
         <action id=";">
             <when state="none" output=";"/>
             <when state="Smiley Mode" output="😉"/>
+        </action>
+        <action id="]">
+            <when state="none" output="]"/>
+            <when state="Smiley Mode" output="🤖"/>
         </action>
         <action id="|">
             <when state="none" output="|"/>
