@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 340 on 2021-03-07 at 22:20 (EST)-->
-<keyboard group="126" id="-21992" name="RJBS" maxout="3">
+<!--Last edited by Ukelele version 343 on 2021-06-08 at 13:53 (EDT)-->
+<keyboard group="126" id="-13202" name="RJBS" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="984" modifiers="f4"/>
         <layout first="18" last="18" mapSet="16c" modifiers="f4"/>
@@ -575,7 +575,7 @@
             <key code="0" output="̄"/>
             <key code="1" action="24"/>
             <key code="2" output="Ð"/>
-            <key code="3" action="22"/>
+            <key code="3" action="x"/>
             <key code="4" output="̱"/>
             <key code="5" action="19"/>
             <key code="6" output="̉"/>
@@ -1092,6 +1092,9 @@
             <when state="Smiley Mode" output="⬇️"/>
             <when state="Tilde Above Mode" output="ṽ"/>
         </action>
+        <action id="103">
+            <when state="none" next="Tilde Below Mode"/>
+        </action>
         <action id="11">
             <when state="none" next="Double Acute Mode"/>
         </action>
@@ -1175,6 +1178,7 @@
             <when state="Dot-Above Mode" output="Ȧ"/>
             <when state="Dot-Below Mode" output="Ạ"/>
             <when state="Double Grave Mode" output="Ȁ"/>
+            <when state="Fruit Mode" output="🍏"/>
             <when state="Grave Mode" output="À"/>
             <when state="Hook Above Mode" output="Ả"/>
             <when state="Inverted Breve Mode" output="Ȃ"/>
@@ -1195,6 +1199,7 @@
             <when state="Dot-Below Mode" output="ạ"/>
             <when state="Double Grave Mode" output="ȁ"/>
             <when state="Flag-1 Mode" output="🇦"/>
+            <when state="Fruit Mode" output="🍎"/>
             <when state="Grave Mode" output="à"/>
             <when state="Hook Above Mode" output="ả"/>
             <when state="Inverted Breve Mode" output="ȃ"/>
@@ -1217,6 +1222,7 @@
             <when state="Dot-Below Mode" output="ḅ"/>
             <when state="Fastmail Mode" output="🛠"/>
             <when state="Flag-1 Mode" output="🇧"/>
+            <when state="Fruit Mode" output="🍌"/>
             <when state="Hook mode" output="ɓ"/>
             <when state="Line Below Mode" output="ḇ"/>
             <when state="Stroke Mode" output="ƀ"/>
@@ -1244,6 +1250,7 @@
             <when state="Dot-Above Mode" output="ċ"/>
             <when state="Fastmail Mode" output="🖼"/>
             <when state="Flag-1 Mode" output="🇨"/>
+            <when state="Fruit Mode" output="🥥"/>
             <when state="Hook mode" output="ƈ"/>
             <when state="Smiley Mode" output="☎️"/>
         </action>
@@ -1306,6 +1313,7 @@
             <when state="Dot-Below Mode" output="ẹ"/>
             <when state="Double Grave Mode" output="ȅ"/>
             <when state="Flag-1 Mode" output="🇪"/>
+            <when state="Fruit Mode" output="🍐"/>
             <when state="Grave Mode" output="è"/>
             <when state="Hook Above Mode" output="ẻ"/>
             <when state="Inverted Breve Mode" output="ȇ"/>
@@ -1352,6 +1360,7 @@
             <when state="Dot-Above Mode" output="ġ"/>
             <when state="Fastmail Mode" output="⚙️"/>
             <when state="Flag-1 Mode" output="🇬"/>
+            <when state="Fruit Mode" output="🍇"/>
             <when state="Hook mode" output="ɠ"/>
             <when state="Macron mode" output="ḡ"/>
             <when state="Smiley Mode" output="ɣ"/>
@@ -1359,6 +1368,7 @@
         </action>
         <action id="4">
             <when state="none" next="Tilde Above Mode"/>
+            <when state="Tilde Above Mode" next="Tilde Below Mode"/>
         </action>
         <action id="4 1">
             <when state="none" output="4"/>
@@ -1389,6 +1399,7 @@
             <when state="Dot-Below Mode" output="ḥ"/>
             <when state="Fastmail Mode" output="💆🏻‍♀️"/>
             <when state="Flag-1 Mode" output="🇭"/>
+            <when state="Fruit Mode" output="🌶"/>
             <when state="Hook mode" output="ɦ"/>
             <when state="Line Below Mode" output="ẖ"/>
             <when state="Smiley Mode" output="💙"/>
@@ -1425,6 +1436,7 @@
             <when state="Dot-Below Mode" output="ị"/>
             <when state="Double Grave Mode" output="ȉ"/>
             <when state="Flag-1 Mode" output="🇮"/>
+            <when state="Fruit Mode" output="🍆"/>
             <when state="Grave Mode" output="ì"/>
             <when state="Hook Above Mode" output="ỉ"/>
             <when state="Hook mode" output="ɩ"/>
@@ -1447,6 +1459,7 @@
             <when state="Caron mode" output="ǰ"/>
             <when state="Circumflex Mode" output="ĵ"/>
             <when state="Flag-1 Mode" output="🇯"/>
+            <when state="Fruit Mode" output="🥕"/>
             <when state="Smiley Mode" output="ƞ"/>
         </action>
         <action id="46">
@@ -1466,6 +1479,7 @@
             <when state="Cedilla Mode" output="ķ"/>
             <when state="Dot-Below Mode" output="ḳ"/>
             <when state="Flag-1 Mode" output="🇰"/>
+            <when state="Fruit Mode" output="🥝"/>
             <when state="Hook mode" output="ƙ"/>
             <when state="Line Below Mode" output="ḵ"/>
             <when state="Smiley Mode" output="ĸ"/>
@@ -1490,6 +1504,7 @@
             <when state="Dot-Below Mode" output="ḷ"/>
             <when state="Fastmail Mode" output="🚀"/>
             <when state="Flag-1 Mode" output="🇱"/>
+            <when state="Fruit Mode" output="🍋"/>
             <when state="Line Below Mode" output="ḻ"/>
             <when state="Macron mode" output="ḹ"/>
             <when state="Stroke Mode" output="ł"/>
@@ -1512,6 +1527,7 @@
             <when state="Dot-Above Mode" output="ṁ"/>
             <when state="Dot-Below Mode" output="ṃ"/>
             <when state="Flag-1 Mode" output="🇲"/>
+            <when state="Fruit Mode" output="🥭"/>
             <when state="Smiley Mode" output="ɯ"/>
         </action>
         <action id="52">
@@ -1540,6 +1556,7 @@
             <when state="Dot-Below Mode" output="ṇ"/>
             <when state="Fastmail Mode" output="👩🏻‍🎤"/>
             <when state="Flag-1 Mode" output="🇳"/>
+            <when state="Fruit Mode" output="🥑"/>
             <when state="Grave Mode" output="ǹ"/>
             <when state="Hook mode" output="ɲ"/>
             <when state="Line Below Mode" output="ṉ"/>
@@ -1579,6 +1596,7 @@
             <when state="Double Acute Mode" output="ő"/>
             <when state="Double Grave Mode" output="ȍ"/>
             <when state="Flag-1 Mode" output="🇴"/>
+            <when state="Fruit Mode" output="🫒"/>
             <when state="Grave Mode" output="ò"/>
             <when state="Hook Above Mode" output="ỏ"/>
             <when state="Horn Mode" output="ơ"/>
@@ -1603,6 +1621,7 @@
             <when state="Dot-Above Mode" output="ṗ"/>
             <when state="Fastmail Mode" output="🏗"/>
             <when state="Flag-1 Mode" output="🇵"/>
+            <when state="Fruit Mode" output="🍍"/>
             <when state="Hook mode" output="ƥ"/>
             <when state="Smiley Mode" output="📦"/>
         </action>
@@ -1613,6 +1632,7 @@
         <action id="59">
             <when state="none" output="q"/>
             <when state="Flag-1 Mode" output="🇶"/>
+            <when state="Fruit Mode" output="🍅"/>
             <when state="Hook mode" output="ʠ"/>
             <when state="Smiley Mode" output="ƣ"/>
         </action>
@@ -1644,6 +1664,7 @@
             <when state="Double Grave Mode" output="ȑ"/>
             <when state="Fastmail Mode" output="👷🏽‍♂️"/>
             <when state="Flag-1 Mode" output="🇷"/>
+            <when state="Fruit Mode" output="🌽"/>
             <when state="Hook mode" output="ʈ"/>
             <when state="Inverted Breve Mode" output="ȓ"/>
             <when state="Line Below Mode" output="ṟ"/>
@@ -1672,6 +1693,7 @@
             <when state="Dot-Above Mode" output="ṡ"/>
             <when state="Dot-Below Mode" output="ṣ"/>
             <when state="Flag-1 Mode" output="🇸"/>
+            <when state="Fruit Mode" output="🍓"/>
             <when state="Hook mode" output="ʃ"/>
             <when state="Macron mode" output="s̄"/>
             <when state="Smiley Mode" output="✂️"/>
@@ -1700,6 +1722,7 @@
             <when state="Dot-Below Mode" output="ṭ"/>
             <when state="Fastmail Mode" output="⛑"/>
             <when state="Flag-1 Mode" output="🇹"/>
+            <when state="Fruit Mode" output="🍊"/>
             <when state="Hook mode" output="ƭ"/>
             <when state="Line Below Mode" output="ṯ"/>
             <when state="Smiley Mode" output="🌳"/>
@@ -1740,6 +1763,7 @@
             <when state="Double Acute Mode" output="ű"/>
             <when state="Double Grave Mode" output="ȕ"/>
             <when state="Flag-1 Mode" output="🇺"/>
+            <when state="Fruit Mode" output="🫐"/>
             <when state="Grave Mode" output="ù"/>
             <when state="Hook Above Mode" output="ủ"/>
             <when state="Hook mode" output="ʋ"/>
@@ -1769,6 +1793,7 @@
             <when state="Dot-Below Mode" output="ṿ"/>
             <when state="Fastmail Mode" output="v"/>
             <when state="Flag-1 Mode" output="🇻"/>
+            <when state="Fruit Mode" output="🍑"/>
             <when state="Grave Mode" output="ǜ"/>
             <when state="Macron mode" output="ǖ"/>
             <when state="Smiley Mode" output="⬇️"/>
@@ -1796,6 +1821,7 @@
             <when state="Dot-Above Mode" output="ẇ"/>
             <when state="Dot-Below Mode" output="ẉ"/>
             <when state="Flag-1 Mode" output="🇼"/>
+            <when state="Fruit Mode" output="🍉"/>
             <when state="Grave Mode" output="ẁ"/>
             <when state="Ring Above Mode" output="ẘ"/>
             <when state="Smiley Mode" output="👋🏽"/>
@@ -1813,6 +1839,7 @@
             <when state="Diaeresis Mode" output="ẍ"/>
             <when state="Dot-Above Mode" output="ẋ"/>
             <when state="Flag-1 Mode" output="🇽"/>
+            <when state="Fruit Mode" output="🍈"/>
             <when state="Hook mode" output="ɖ"/>
             <when state="Smiley Mode" output="❌"/>
         </action>
@@ -1870,6 +1897,7 @@
             <when state="Dot-Above Mode" output="ż"/>
             <when state="Dot-Below Mode" output="ẓ"/>
             <when state="Flag-1 Mode" output="🇿"/>
+            <when state="Fruit Mode" output="🧄"/>
             <when state="Hook mode" output="ȥ"/>
             <when state="Line Below Mode" output="ẕ"/>
             <when state="Macron mode" output="z̄"/>
@@ -1988,6 +2016,9 @@
             <when state="none" output="]"/>
             <when state="Smiley Mode" output="🤖"/>
         </action>
+        <action id="x">
+            <when state="none" next="Fruit Mode"/>
+        </action>
         <action id="|">
             <when state="none" output="|"/>
             <when state="Smiley Mode" output="😐"/>
@@ -2022,6 +2053,7 @@
         <when state="Double Grave Mode" output=" ̏"/>
         <when state="Fastmail Mode" output="💌"/>
         <when state="Flag-1 Mode" output="⚑"/>
+        <when state="Fruit Mode" output=""/>
         <when state="Grave Mode" output="`"/>
         <when state="Hook Above Mode" output="ˀ"/>
         <when state="Hook mode" output="ʔ"/>
